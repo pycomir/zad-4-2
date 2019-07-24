@@ -19,11 +19,14 @@ body {
 
 header {
   margin: 0 25%;
+  padding: 15px 15px;
   text-align: left;
   Font-Family: 'Varela Round', Sans-Serif;
+  background-color: #C2D2D5;
 }
 header h3 {
   margin-top: 0;
+  margin-bottom: 0;
   font-style: italic;
   Font-Family: 'Noto Serif', Serif;
 }
@@ -36,15 +39,26 @@ header h1 {
 .content {
   margin: 0 25%;
   text-align: left;
+  background-color: #76A5BD;
+  padding-top: 20px;
+}
+.content p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
 /*footer*/
 
 footer {
-  margin: 20px 25%;
-  text-align: left;
-  padding-left: 20px;
+  margin: 0 25%;
+  text-align: left;  
+  background-color: #C2D2D5;
+  padding: 10px 10px 10px 20px;
 }
 footer p span {
   font-style: italic;
+}
+footer p {
+  background-clip: content-box;
+  margin: 0;
 }
