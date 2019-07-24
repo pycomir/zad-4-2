@@ -23,6 +23,7 @@ header {
   text-align: left;
   Font-Family: 'Varela Round', Sans-Serif;
   background-color: #C2D2D5;
+  box-shadow: 2px 2px 5px black;
 }
 header h3 {
   margin-top: 0;
@@ -39,19 +40,19 @@ header h1 {
 .content {
   margin: 0 25%;
   text-align: left;
-  background-color: #76A5BD;
-  padding-top: 20px;
+  background-color: none;
 }
 .content p:last-of-type {
   margin-bottom: 0;
   padding-bottom: 15px;
 }
 
+
 /*footer*/
 
 footer {
   margin: 0 25%;
-  text-align: left;  
+  text-align: left;
   background-color: #C2D2D5;
   padding: 10px 10px 10px 20px;
 }
