@@ -1,0 +1,2 @@
+autoprefixer-cli -o style.css style.prefixed.css - czyta z pliku style.css i zapisuje do style.prefixed.css
+nu-html-checker index.html - sprawdza html
